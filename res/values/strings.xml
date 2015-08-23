@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_home">Main Menu</string>
+    <string name="app_name">DB Timetable</string>
+    <string name="menu_about">About</string>
+    
+    <string name="title_text">Discovery Bay Timetable for Android</string>
+    <string name="about_text">Feel free to send me any questions, suggestions or comments.</string>
+    
+</resources>

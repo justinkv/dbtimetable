@@ -1,0 +1,6 @@
+Changelog
+
+Screensize fix
+times contrast fix
+added 1:30 ferry
+added new marina club times

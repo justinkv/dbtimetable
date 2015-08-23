@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="jv.treyas.dbtimetable"
+      android:versionName="1.21" android:versionCode="7">
+       <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="10"/>
+       <supports-screens android:anyDensity="true" android:smallScreens="true" android:resizeable="true" android:largeScreens="true" android:normalScreens="true" android:xlargeScreens="true"/>
+    <application android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar" android:icon="@drawable/icon" android:debuggable="false">
+        <activity android:name=".DBTimetable"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    <activity android:name=".TimeList"/>
+<activity android:name=".OriginList"/>
+<activity android:name=".RouteList"/>
+<activity android:name=".AboutPage"/>
+</application>
+
+
+
+
+</manifest> 

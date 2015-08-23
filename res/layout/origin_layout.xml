@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent" android:layout_width="fill_parent"
+  android:orientation="vertical"
+  style="@style/InnerTheme" >
+  
+	<TextView 
+		android:id="@+id/routeTitle" 
+		android:layout_height="wrap_content" 
+		android:layout_gravity="top" 
+		android:layout_width="fill_parent" 
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textStyle="bold" 
+		android:gravity="center_horizontal" 
+		android:background="#D1D1D1" 
+		android:textColor="#006400" />
+	
+	<ListView 
+		android:id="@+id/android:list" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_gravity="center_horizontal" 
+		android:cacheColorHint="#00000000"
+		android:paddingTop="5dip" 
+		android:paddingBottom="5dip" />
+</LinearLayout>

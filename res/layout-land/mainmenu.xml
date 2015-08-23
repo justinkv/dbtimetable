@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="@drawable/main_menu"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  
+  	<LinearLayout 
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_marginTop="60dp">
+  
+		<Button 
+			android:id="@+id/Ferry" 
+			android:layout_height="80dp" 
+			android:layout_width="80dp" android:background="@drawable/ferry"/>
+				
+		
+				
+		<TextView 
+			android:layout_height="wrap_content" 
+			android:id="@+id/TextView01" 
+			android:layout_toRightOf="@+id/Ferry" 
+			android:layout_width="wrap_content" 
+			android:text="Ferries" 
+			android:textColor="@android:color/white" 
+			android:textSize="24dp" 
+			android:textStyle="bold" 
+			android:layout_alignBaseline="@+id/Ferry" android:layout_marginRight="50dp"/>
+		
+		
+		<Button  
+			android:layout_below="@+id/Ferry" 
+			android:layout_width="80dp" 
+			android:layout_height="80dp" 
+			android:id="@+id/Bus" 
+			android:background="@drawable/bus" />
+	
+		<TextView 
+			android:layout_height="wrap_content" 
+			android:id="@+id/TextView02" 
+			android:layout_toRightOf="@+id/Bus" 
+			android:layout_below="@+id/Ferry" 
+			android:layout_width="wrap_content" 
+			android:layout_alignBaseline="@+id/Bus" 
+			android:text="Buses" android:textColor="@android:color/white" 
+			android:textStyle="bold" 
+			android:textSize="24dp" />
+			
+	</LinearLayout>
+
+</LinearLayout>
