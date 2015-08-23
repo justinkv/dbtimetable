@@ -1,2 +1,2 @@
-# dbtimetable
+# DB Timetable
 Discovery Bay Timetable
